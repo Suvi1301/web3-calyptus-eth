@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_vaultAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/my_contract_calyptus/Reentrancy/Attack.sol": "Attack"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/my_contract_calyptus/Reentrancy/Attack.sol": {
+			"keccak256": "0xc55582f360e9d5542793c6a7a911e3ef84de72b1f886e3a17e64425c6d8286f9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d0c3c916adde9a2050506e5f86847f5913ca2a36be975157596f768c0cc27c0a",
+				"dweb:/ipfs/QmU9RCwnUJjAR3bA3iNWgBvEeR9gz4a5xfcAFBWVaR33QY"
+			]
+		}
+	},
+	"version": 1
+}

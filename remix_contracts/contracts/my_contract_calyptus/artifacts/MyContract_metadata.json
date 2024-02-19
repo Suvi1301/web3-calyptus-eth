@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_acc1",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_acc2",
+						"type": "address"
+					}
+				],
+				"name": "checkEqual",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/my_contract_calyptus/Example.sol": "MyContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/my_contract_calyptus/Example.sol": {
+			"keccak256": "0xf3f3ae8ab75d5a6ca5127d55303ddc4843de0c2108ca6fa7fa2398d206f124bd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e08280243316ec72bdecc3942fe339277c91081b3aba0470b173e2bf50d9017",
+				"dweb:/ipfs/QmPppiMGC4Ue68euuAqVLLSwSq6fR7QMLzWqG4E7e2Ks6Y"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/my_contract_calyptus/NumberStorage.sol": "NumberStorage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/my_contract_calyptus/NumberStorage.sol": {
+			"keccak256": "0xa4a566ee1a09dda3d915f62190aec8b45be3e1ca8ca325c1a134a45ccd5343d0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://231b6b791ca19f43a5b620658b5d1bc485ef4f3d7ec4eb4b04a39ba1342a21ed",
+				"dweb:/ipfs/QmT1y9Z3atRRhMZzmnAY9F9kfGgbvSuaAjEKWrDno9BAXZ"
+			]
+		}
+	},
+	"version": 1
+}
