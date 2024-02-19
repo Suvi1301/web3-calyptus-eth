@@ -1,3 +1,6 @@
 .vscode
 node_modules/
 remix_contracts/.deps/*
+ether-scripts/node_modules/*
+hardhat/node_modules/*
+hardhat/.env
